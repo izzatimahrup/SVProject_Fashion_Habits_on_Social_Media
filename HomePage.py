@@ -9,7 +9,7 @@ st.set_page_config(page_title="Fashion Habits Dashboard", layout="wide")
 # ---------------------------------------------------------
 @st.cache_data
 def load_data():
-    url = "https://raw.githubusercontent.com/izzatimahrup/SVProject_A-Survey-of-Fashion-Habits/refs/heads/main/Cleaned_FashionHabitGF.csv"
+    url = "https://raw.githubusercontent.com/izzatimahrup/SVProject_Fashion_Habits_on_Social_Media/refs/heads/main/Cleaned_FashionHabitGF.csv"
     return pd.read_csv(url)
 
 df = load_data()
